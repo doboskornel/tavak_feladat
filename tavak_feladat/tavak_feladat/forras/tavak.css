@@ -1,0 +1,119 @@
+body{
+   
+   background-image: url("img/grass.jpg");
+    color: #fff;
+    width: 1200px;
+    background-color: #8c8;
+    max-width: 100%;
+    font-family: Verdana;
+    align-content: center;
+  }
+  #focim{
+      background-color: #08F;
+      background-image: url("img/splash.png");
+      background-position: bottom;
+      background-position: right;
+      background-repeat: no-repeat;
+      height: 200px;
+      text-align: center;
+      width: 600px;
+      margin:0 auto;
+      border-radius: 30px;
+      box-shadow:0px 3px #fff;
+      text-shadow: 3px 3px #000;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      line-height: 200%;
+  }
+  .doboz{
+    background-color: #08F;
+    background-image: url("img/splash.png");
+    background-position: bottom;
+    background-position: right;
+    background-repeat: no-repeat;
+    max-width: 970px;
+    border-radius: 30px;
+    box-shadow:0px 0px 20px  black;
+    padding: 30px;
+    margin-top: 30px;
+
+  }
+  .doboz:nth-child(odd){
+display: block;
+margin-right: 10px;
+margin-left: auto;
+  }
+  .doboz:nth-child(even){
+
+display: block;
+margin-left: 10px;
+margin-right: auto;
+  }
+
+
+h1{
+    text-align: center;
+    line-height: 20%;
+    
+}
+hr{
+    border-top: 3px #fff solid;
+    
+}
+p{
+    text-align: justify;
+}
+.adat{
+    border-color: #08f;
+    box-shadow:0px 0px 10px  black;
+    color: darkblue;
+    border-width: 2px;
+    background-color: white;
+    border: 2px;
+    border-collapse: collapse;
+    margin-right: 0;
+    border-radius: 10px;
+    border-spacing:5px;
+    float: right;
+}
+table.adat tr td:nth-child(1){
+    font-weight: bold;
+}
+table.adat tr td:nth-child(2){
+    width: 210px;
+}
+table td,table th{
+    border:2px solid #08f;
+   
+}
+.galeria{
+   display: inline-block; 
+}
+.kiskep{
+    display: inline-block; 
+    width: 140px;
+    height: 140px;
+    line-height: 136px;
+    box-shadow:0px 0px 10px  black;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+}
+.kiskep img{
+    max-width: 128px;
+    max-height: 128px; 
+    vertical-align: center;
+   
+}
+.linkek{
+    background-color: #09f;
+    box-shadow:0px 0px 10px  black;
+    border-radius: 10px;
+    border-left-style: double;
+    width: 250px;
+}
+.linkek li{
+    display: inline-block; 
+}
+
